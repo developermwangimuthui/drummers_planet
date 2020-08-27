@@ -1,0 +1,16 @@
+[26-Jun-2017 12:56:43 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/hometklt/public_html/tutornew/application/modules/home/controllers/Home.php on line 15
+[26-Jun-2017 12:59:46 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/hometklt/public_html/tutornew/application/modules/home/controllers/Home.php on line 15
+[26-Jun-2017 13:05:01 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/hometklt/public_html/tutornew/application/modules/home/controllers/Home.php on line 263
+[26-Jun-2017 13:06:08 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/hometklt/public_html/tutornew/application/modules/home/controllers/Home.php on line 290
+[26-Jun-2017 13:07:10 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/hometklt/public_html/tutornew/application/modules/home/controllers/Home.php on line 314
+[26-Jun-2017 13:07:57 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/hometklt/public_html/tutornew/application/modules/home/controllers/Home.php on line 398
+[26-Jun-2017 13:08:48 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/hometklt/public_html/tutornew/application/modules/home/controllers/Home.php on line 413
+[26-Jun-2017 13:09:41 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/hometklt/public_html/tutornew/application/modules/home/controllers/Home.php on line 555
+[26-Jun-2017 13:10:54 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/hometklt/public_html/tutornew/application/modules/home/controllers/Home.php on line 711
+[26-Jun-2017 13:13:00 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/hometklt/public_html/tutornew/application/modules/home/controllers/Home.php on line 1115
+[26-Jun-2017 13:13:51 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/hometklt/public_html/tutornew/application/modules/home/controllers/Home.php on line 1360
+[26-Jun-2017 13:14:50 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/hometklt/public_html/tutornew/application/modules/home/controllers/Home.php on line 1592
+[26-Jun-2017 13:16:18 Etc/GMT] PHP Fatal error:  Cannot redeclare get_config() (previously declared in /home/hometklt/public_html/tutornew/system/core/Common.php:238) in /home/hometklt/public_html/tutornew/application/helpers/global_helper.php on line 1796
+[26-Jun-2017 19:05:10 Asia/Kolkata] PHP Fatal error:  Using $this when not in object context in /home/hometklt/public_html/tutornew/application/helpers/global_helper.php on line 1794
+[26-Jun-2017 13:36:10 Etc/GMT] PHP Fatal error:  Can't use method return value in write context in /home/hometklt/public_html/tutornew/application/modules/auth/controllers/Auth.php on line 920
+[26-Jun-2017 19:34:31 Asia/Kolkata] PHP Fatal error:  Can't use method return value in write context in /home/hometklt/public_html/tutornew/application/modules/home/views/contact_us.php on line 9

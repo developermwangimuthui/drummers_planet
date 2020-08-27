@@ -1,0 +1,33 @@
+== 3.0.8 - September 14, 2017 ==
+* Feature: Versioning Introduced
+== September 12, 2017 ==
+* Tweak: when choosing manual transfer and click buy button brings error 404 page
+* Tweak: Even student have credit it is not allowing to book the course (If it is free course)
+* Tweak: When student/Tutor buys credits. In admin payment does not show any reference from (Displayed Student/ Tutor Name)
+== August 22, 2017 ==
+* Add course issue fixed while adding if there are no courses at all
+== August 19, 2017 ==
+* Static links removed in Update_db.php Controller
+== August 18, 2017 ==
+* Handle BBB Server info wrong in admin
+== July 18, 2017 ==
+* seosettings database structure changed. 
+  Updating current time stamp 'ONUPDATE' not supporting on some servers
+== July 12, 2017 ==
+* Date warding fixed running on PHP 5.3 (warning: date(): It is not safe to rely on the system's timezone settings. )
+== June 28, 2017 ==
+* Contact us page issue fixed for PHP higher version
+== June 27, 2017 ==
+* Fixed SEO settings issue with PHP higher version
+== V3 - June 20, 2017 ==
+* BBB Integration Completed
+== V2 - January 13, 2017 ==
+* Installation screen changed
+== January 12, 2017 ==
+* Installation issues fixed
+== December 29, 2016 ==
+* Documentation
+== December 28, 2016 ==
+* README.md edited online with Bitbucket
+== December 28, 2016 ==
+* Initial Release
