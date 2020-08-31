@@ -55,10 +55,14 @@ if(isset($_POST['form1'])) {
     	$statement = $pdo->prepare("SHOW TABLE STATUS LIKE 'tbl_product'");
 		$statement->execute();
 		$result = $statement->fetchAll();
+		
 		foreach($result as $row) {
 			$ai_id=$row[10];
 		}
 
+		// var_dump($ai_id);
+		// // var_dump(json_encode($result));
+		// exit;
     	if( isset($_FILES['photo']["name"]) && isset($_FILES['photo']["tmp_name"]) )
         {
         	$photo = array();
