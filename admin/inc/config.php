@@ -10,13 +10,13 @@ date_default_timezone_set('Asia/Dhaka');
 $dbhost = 'localhost';
 
 // Database Name
-$dbname = 'drummersplanet';
+$dbname = 'sirge_ecommerce';
 
 // Database Username
-$dbuser = 'root';
+$dbuser = 'oredo';
 
 // Database Password
-$dbpass = '';
+$dbpass = '2&84!8jamu';
 
 // Defining base url
 define("BASE_URL", "https://drummersplanet.co.ke/");
