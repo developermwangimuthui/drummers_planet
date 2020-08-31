@@ -344,7 +344,7 @@ if(!isset($_SESSION['cart_p_id'])) {
                                         <h1>M-PESA Payment</h1>
                                         <div class="col-md-12 form-group">
                                             <label for="">M-PESA Number</label>
-                                            <input type="number" name="phone" placeholder="Phone (254700352820)" class="form-control" />
+                                            <input type="number" name="phone" placeholder="Phone (254700352820)" class="form-control" required />
                                         </div>
                                         <div class="col-md-12 form-group">
                                             <label for="">Amount</label>

@@ -1,5 +1,6 @@
 <?php
 @require_once('Operations.php');
+session_start();
 /**
  * Created by PhpStorm.
  * User: kogi
@@ -77,9 +78,21 @@
 
     echo $curl_stk_response;
 	if($curl_stk_response){
-        echo $curl_stk_response;
+        // echo $curl_stk_response;
         $db = new Operations();
         $db->insert($curl_stk_response);
+        
+        
+unset($_SESSION['cart_p_id']);
+unset($_SESSION['cart_size_id']);
+unset($_SESSION['cart_size_name']);
+unset($_SESSION['cart_color_id']);
+unset($_SESSION['cart_color_name']);
+unset($_SESSION['cart_p_qty']);
+unset($_SESSION['cart_p_current_price']);
+unset($_SESSION['cart_p_name']);
+unset($_SESSION['cart_p_featured_photo']);
+        header('Location: ' . $_SERVER['HTTP_REFERER']);
 	}else{
 		echo "null";
 	}
