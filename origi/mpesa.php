@@ -8,14 +8,11 @@ session_start();
  * Time: 10:28 AM
  */
 
-    $phone = $_POST["phone"];
+$phone_number = $_POST["phone"];
 
-// var_dump($phone);
-// exit;
-    // $phone_number1 = preg_replace('/^0/', '254', $phone_number1);
-    // $phone_number1 = preg_replace('/^7/', '2547', $phone_number1);
-    // $phone_number1 = preg_replace('/^1/', '2541', $phone_number1);
 
+    $phone = preg_replace('/^0/', '254', $phone_number,1);
+    
     $amount = $_POST["amount"];
 
     $stk_request_url = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
