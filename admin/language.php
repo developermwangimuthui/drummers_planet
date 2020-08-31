@@ -313,6 +313,13 @@ foreach ($result as $row) {
                     </div>
                 </div>
 				<div class="form-group">
+                    <label for="" class="col-sm-4 control-label">M-PESA <span>*</span></label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" name="lang_value[164]" value="<?php echo $lang_ids[164]; ?>">
+                    </div>
+                </div>
+                </div>
+				<div class="form-group">
                     <label for="" class="col-sm-4 control-label">PayPal <span>*</span></label>
                     <div class="col-sm-6">
                         <input type="text" class="form-control" name="lang_value[36]" value="<?php echo $lang_ids[36]; ?>">
