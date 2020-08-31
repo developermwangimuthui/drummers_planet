@@ -1,3 +1,4 @@
+ 
 <?php
 // Error Reporting Turn On
 ini_set('error_reporting', E_ALL);
@@ -9,16 +10,16 @@ date_default_timezone_set('Asia/Dhaka');
 $dbhost = 'localhost';
 
 // Database Name
-$dbname = 'drummersplanet';
+$dbname = 'sirge_ecommerce';
 
 // Database Username
-$dbuser = 'root';
+$dbuser = 'oredo';
 
 // Database Password
-$dbpass = '';
+$dbpass = '2&84!8jamu';
 
 // Defining base url
-define("BASE_URL", "http://localhost/");
+define("BASE_URL", "https://drummersplanet.co.ke/");
 
 // Getting Admin url
 define("ADMIN_URL", BASE_URL . "admin" . "/");
