@@ -734,8 +734,8 @@ if(isset($_POST['form7_10'])) {
 
 if(isset($_POST['form9'])) {
     // updating the database
-    $statement = $pdo->prepare("UPDATE tbl_settings SET paypal_email=?, stripe_public_key=?, stripe_secret_key=?, bank_detail=? WHERE id=1");
-    $statement->execute(array($_POST['paypal_email'],$_POST['stripe_public_key'],$_POST['stripe_secret_key'],$_POST['bank_detail']));
+    $statement = $pdo->prepare("UPDATE tbl_settings SET paypal_email=?, stripe_public_key=?, stripe_secret_key=?, bank_detail=?, M_PESA =? WHERE id=1");
+    $statement->execute(array($_POST['paypal_email'],$_POST['stripe_public_key'],$_POST['stripe_secret_key'],$_POST['bank_detail'],$_POST['M_PESA']));
 
     $success_message = 'Payment Settings is updated successfully.';
 }
@@ -845,6 +845,7 @@ foreach ($result as $row) {
     $blog_subtitle                   = $row['blog_subtitle'];
     $newsletter_text                 = $row['newsletter_text'];
     $paypal_email                    = $row['paypal_email'];
+    $M_PESA                    = $row['M_PESA'];
     $stripe_public_key               = $row['stripe_public_key'];
     $stripe_secret_key               = $row['stripe_secret_key'];
     $bank_detail                     = $row['bank_detail'];
@@ -1651,6 +1652,13 @@ foreach ($result as $row) {
                         <div class="tab-pane" id="tab_9">
                             <form class="form-horizontal" action="" method="post">
                                 <div class="box box-info">
+                                    <div class="box-body">
+                                        <div class="form-group">
+                                            <label for="" class="col-sm-2 control-label">M-PESA Till Number </label>
+                                            <div class="col-sm-5">
+                                                <input type="text" name="M_PESA" class="form-control" value="<?php echo $M_PESA; ?>">
+                                            </div>
+                                        </div>
                                     <div class="box-body">
                                         <div class="form-group">
                                             <label for="" class="col-sm-2 control-label">PayPal - Business Email </label>
