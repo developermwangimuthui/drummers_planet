@@ -256,28 +256,38 @@ foreach ($result as $row) {
 		advFieldsStatus = $('#advFieldsStatus').val();
 
 		$('#paypal_form').hide();
+		$('#mpesa_form').hide();
 		$('#stripe_form').hide();
 		$('#bank_form').hide();
 
         $('#advFieldsStatus').on('change',function() {
             advFieldsStatus = $('#advFieldsStatus').val();
-            if ( advFieldsStatus == '' ) {
+            if ( advFieldsStatus == 'M_PESA' ) {
+            	$('#mpesa_form').show();
             	$('#paypal_form').hide();
 				$('#stripe_form').hide();
 				$('#bank_form').hide();
             } else if ( advFieldsStatus == 'PayPal' ) {
                	$('#paypal_form').show();
 				$('#stripe_form').hide();
+				$('#mpesa_form').hide();
 				$('#bank_form').hide();
             } else if ( advFieldsStatus == 'Stripe' ) {
+               	$('#mpesa_form').hide();
                	$('#paypal_form').hide();
 				$('#stripe_form').show();
 				$('#bank_form').hide();
             } else if ( advFieldsStatus == 'Bank Deposit' ) {
+            	$('#mpesa_form').hide();
             	$('#paypal_form').hide();
 				$('#stripe_form').hide();
 				$('#bank_form').show();
-            }
+            } else {
+				$('#mpesa_form').hide();
+            	$('#paypal_form').hide();
+				$('#stripe_form').hide();
+				$('#bank_form').hide();
+			}
         });
 	});
 
