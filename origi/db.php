@@ -3,10 +3,10 @@
  * Database configuration
  */
 
-define('DB_USERNAME', 'rennyexp_pesa');
-define('DB_PASSWORD', 'gS4hisiW[WM~');
+define('DB_USERNAME', 'oredo');
+define('DB_PASSWORD', '2&84!8jamu');
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'rennyexp_pesa');
+define('DB_NAME', 'sirge_ecommerce');
 
 
 

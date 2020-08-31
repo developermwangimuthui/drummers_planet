@@ -337,22 +337,24 @@ if(!isset($_SESSION['cart_p_id'])) {
                             </div>
 
                             <div id="mpesa_form" class="m_pesa">
-                                <img src="/assets/img/till.jpeg" width="100px" alt="till">
-                                <form action="/origi/mpesa.php" method="post">
+                                <img src="assets/img/till.jpeg" width="300px" alt="till">
+                                <form action="origi/mpesa.php" method="post">
 
                                     <div class="form-style">
                                         <h1>M-PESA Payment</h1>
                                         <div class="col-md-12 form-group">
                                             <label for="">M-PESA Number</label>
-                                            <input type="number" name="phone" placeholder="Phone (254700352820)" />
+                                            <input type="number" name="phone" placeholder="Phone (254700352820)" class="form-control" />
                                         </div>
                                         <div class="col-md-12 form-group">
                                             <label for="">Amount</label>
-                                            <input type="number" name="amount" value="<?php echo $final_total; ?>"
-                                                placeholder="Amount" disabled />
+                                            <input type="hidden" name="amount" value="<?php echo $final_total; ?>"
+                                                placeholder="Amount"  class="form-control " />
+                                            <input type="number" name="hamount" value="<?php echo $final_total; ?>"
+                                                placeholder="Amount" disabled class="form-control " />
                                         </div>
 
-                                        <input type="submit" value="Pay Now" />
+                                        <input type="submit" value="Pay Now" class="btn btn-success" />
                                     </div>
 
                                 </form>
