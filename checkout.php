@@ -324,7 +324,7 @@ if(!isset($_SESSION['cart_p_id'])) {
 	                                    <label for=""><?php echo LANG_VALUE_34; ?> *</label>
 	                                    <select name="payment_method" class="form-control select2" id="advFieldsStatus">
 	                                        <option value=""><?php echo LANG_VALUE_35; ?></option>
-	                                        <option value="M-PESA"><?php echo LANG_VALUE_164; ?></option>
+	                                        <option value="M-PESA"><?php echo "M-PESA"; ?></option>
 	                                        <option value="PayPal"><?php echo LANG_VALUE_36; ?></option>
 	                                        <option value="Stripe"><?php echo LANG_VALUE_37; ?></option>
 	                                        <option value="Bank Deposit"><?php echo LANG_VALUE_38; ?></option>
