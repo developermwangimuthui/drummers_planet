@@ -18,7 +18,7 @@ $dbuser = 'root';
 $dbpass = '';
 
 // Defining base url
-define("BASE_URL", "https://drummersplanet.co.ke/");
+define("BASE_URL", "http://localhost/");
 
 // Getting Admin url
 define("ADMIN_URL", BASE_URL . "admin" . "/");
